@@ -1,0 +1,1 @@
+{insert name="menu" menutype="adm"}

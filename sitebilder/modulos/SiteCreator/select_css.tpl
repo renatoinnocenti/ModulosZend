@@ -1,0 +1,2 @@
+{sqlradiobox id="ID_CSS" SetTable="guia_css" SetOrdenar="css_name" SetOrder="DESC" SetValue="ID_CSS" SetLabel="css_src" SetSelectd="$ID_CSS" SetListExtra=" css_class LIKE '% $ID_CSSCLASS%'" SetDisplay="img" SetDisplayheight="100" SetDisplaywidth="100"}
+<div id="part2"></div>

@@ -1,0 +1,1 @@
+<div id="{$MS_ERROR_TYPE}">{$MS_ERROR}</div>

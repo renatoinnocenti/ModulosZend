@@ -1,0 +1,1 @@
+{noticias->setviewpage NumPage="1"}

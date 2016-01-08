@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+ * FCKeditor - The text editor for internet
+ * Copyright (C) 2003-2006 Frederico Caldeira Knabben
+ * 
+ * Licensed under the terms of the GNU Lesser General Public License:
+ * 		http://www.opensource.org/licenses/lgpl-license.php
+ * 
+ * For further information visit:
+ * 		http://www.fckeditor.net/
+ * 
+ * "Support Open Source software. What about a donation today?"
+ * 
+ * File Name: fcktemplates.xml
+ * 	This is the sample templates definitions file. It makes the "templates" 
+ * 	command completely customizable.
+ * 	See FCKConfig.TemplatesXmlPath in the configuration file.
+ * 
+ * File Authors:
+ * 		Frederico Caldeira Knabben (fredck@fckeditor.net)
+-->
+<Templates imagesBasePath="fck_template/images/">
+	<Template title="Modelo Home" image="template1.gif">
+		<Description>Modelo Sugeriada para pagina inicial</Description>
+		<Html>
+			<![CDATA[
+				<div id="geral">
+                    <div id="topo">
+                        <div id="logo"><img src="templates/Image/logo.gif" alt="logo" /></div>
+                        <div id="flash"><img alt="" src="templates/Image/flash.jpg" /></div>
+                    </div>
+                    <div id="menu" class="font_01">
+                        <ul>
+                            <li><a href="index.php">Index</a></li>
+                            <li><a href="index.php?page=page1">interna 1</a></li>
+                            <li><a href="index.php?page=page2">interna 2</a></li>
+                            <li><a href="index.php?page=page3">interna 3</a></li>
+                            <li><a href="index.php?page=page4">interna 4</a></li>
+                        </ul>
+                    </div>
+                    <div name="menu" Menutype="adm" class="FCK__Inserts" modulo="insert">&nbsp;</div>
+                    <div id="centro">
+                        <div id="coluna_left" class="font_01">
+                            <h1>Bem-vindo ao nosso site</h1>
+                            <div id="caixa_txt01" class="txt_01">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporLorem ipsum dolor sit amet, <a href="#">consectetur adipisicing elit</a>, sed do eiusmod temporLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</div>
+                            <h1>Saiba tudo sobre nossos servi&ccedil;os</h1>
+                            <div id="caixa_txt02" class="txt_01">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</div>
+                        </div>
+                        <div id="coluna_right" class="font_01">
+                            <div id="caixa01" class="caixa">
+                            <h2>&Uacute;ltimas Not&iacute;cias</h2>
+                            <div id="fotinho01" class="fotinho"><img src="templates/Image/teste.jpg" alt="teste" /></div>
+                            <a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporLorem ipsum dolor sit ametr</a>
+                        </div>
+                        <div id="caixa02" class="caixa">
+                            <h2>&Uacute;ltimas Not&iacute;cias</h2>
+                            <div id="fotinho01" class="fotinho"><img src="templates/Image/teste.jpg" alt="teste" /></div>
+                            <a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporLorem ipsum dolor sit ametr</a> 
+                    </div>
+                </div>
+            </div>
+            <div id="rodape" class="font_01">&copy; Copyright 2007 - Nome da Empresa - Todos os direitos reservados<br />Endere&ccedil;o da Empresa, 222 - Bairro - Cidade / ES - CEP:04137-020<br />tel: (11)5555-6666 / fax: (11)5555-7777<br />e-mail: <a href="#">nome@empresa.com.br</a><br /><br />design by <a href="http://www.atr2japan.com.br" target="_blank">atr2japan.com.br</a>
+        </div>
+    </div>
+			]]>
+		</Html>
+	</Template>
+    <Template title="Image and Title" image="template1.gif">
+		<Description>One main image with a title and text that surround the image.</Description>
+		<Html>
+			<![CDATA[
+				<img style="MARGIN-RIGHT: 10px" height="100" alt="" width="100" align="left"/>
+				<h3>Type the title here</h3>
+				Type the text here
+			]]>
+		</Html>
+	</Template>
+	<Template title="Strange Template" image="template2.gif">
+		<Description>A template that defines two colums, each one with a title, and some text.</Description>
+		<Html>
+			<![CDATA[
+				<table cellspacing="0" cellpadding="0" width="100%" border="0">
+					<tbody>
+						<tr>
+							<td width="50%">
+							<h3>Title 1</h3>
+							</td>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+							<td width="50%">
+							<h3>Title 2</h3>
+							</td>
+						</tr>
+						<tr>
+							<td>Text 1</td>
+							<td>&nbsp;</td>
+							<td>Text 2</td>
+						</tr>
+					</tbody>
+				</table>
+				More text goes here.
+			]]>
+		</Html>
+	</Template>
+	<Template title="Text and Table" image="template3.gif">
+		<Description>A title with some text and a table.</Description>
+		<Html>
+			<![CDATA[
+				<table align="left" width="80%" border="0" cellspacing="0" cellpadding="0"><tr><td>
+					<h3>Title goes here</h3>
+					<p>
+					<table style="FLOAT: right" cellspacing="0" cellpadding="0" width="150" border="1">
+						<tbody>
+							<tr>
+								<td align="center" colspan="3"><strong>Table title</strong></td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+							</tr>
+						</tbody>
+					</table>
+					Type the text here</p>
+				</td></tr></table>
+			]]>
+		</Html>
+	</Template>
+</Templates>
